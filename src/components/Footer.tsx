@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Facebook, Instagram, Youtube } from 'lucide-react';
 
 const Footer = () => {
@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-xl font-semibold mb-4">Sítio Bom Pastor</h3>
             <p className="text-gray-400">
-              Um espaço dedicado à comunhão e ao crescimento espiritual.
+              Muito mais que um acampamento, um lugar de paz e tranquilidade para você e sua família.
             </p>
           </div>
 
@@ -45,10 +45,10 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-semibold mb-4">Contato</h3>
             <ul className="space-y-2 text-gray-400">
-              <li>Telefone: (XX) XXXX-XXXX</li>
+              <li>Telefone: (15) 97401-1407</li>
               <li>Email: contato@sitiobompastor.com.br</li>
-              <li>Endereço: Estrada do Sítio, XX</li>
-              <li>Cidade/Estado - CEP: XXXXX-XXX</li>
+              <li>Endereço: Estrada Municipal Severino de Oliveira, 2001 - Bairro da Canguera, Capela do Alto – SP</li>
+              <li>CEP: 18195-970 - Caixa Postal 11 </li>
             </ul>
           </div>
 
@@ -57,21 +57,21 @@ const Footer = () => {
             <h3 className="text-xl font-semibold mb-4">Redes Sociais</h3>
             <div className="flex space-x-4">
               <a
-                href="#"
+                href="https://www.facebook.com/sitiobompastor?locale=pt_BR"
                 className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700 transition-colors"
                 aria-label="Facebook"
               >
                 <Facebook className="w-5 h-5" />
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/acampamentositiobompastor/"
                 className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700 transition-colors"
                 aria-label="Instagram"
               >
                 <Instagram className="w-5 h-5" />
               </a>
               <a
-                href="#"
+                href="https://www.youtube.com/@acampamentositiobompastor2976"
                 className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700 transition-colors"
                 aria-label="YouTube"
               >

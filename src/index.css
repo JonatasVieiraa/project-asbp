@@ -3,6 +3,32 @@
 @tailwind utilities;
 
 .bg-gradient {
-    background: linear-gradient(to bottom, #dbeafe, #ffffff);
+  background: linear-gradient(to bottom, #dbeafe, #ffffff);
+}
+
+/* No seu arquivo CSS global */
+@keyframes fadeSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
   }
-  
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

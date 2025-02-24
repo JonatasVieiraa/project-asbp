@@ -26,31 +26,28 @@ const Services = () => {
       icon: <Sun className="w-8 h-8 text-primary" />, 
       title: 'TEMPORADA DE FÉRIAS', 
       description: 'Férias inesquecíveis para crianças e adolescentes.',
-      whatsapp: "https://wa.me/5599999999999?text=Olá!%20Quero%20saber%20mais%20sobre%20a%20Temporada%20de%20Férias."
     },
     { 
       icon: <Church className="w-8 h-8 text-primary" />, 
       title: 'IGREJAS', 
       description: 'Ambiente ideal para retiros espirituais.', 
-      whatsapp: "https://wa.me/5599999999999?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20retiros%20para%20igrejas."
     },
     { 
       icon: <Users className="w-8 h-8 text-primary" />, 
       title: 'CORPORATIVO', 
       description: 'Espaço para treinamentos e integração de equipes.',
-      whatsapp: "https://wa.me/5599999999999?text=Olá!%20Quero%20mais%20informações%20sobre%20eventos%20corporativos."
     },
     { 
       icon: <Heart className="w-8 h-8 text-primary" />, 
       title: 'RETIRO DE JOVENS', 
       description: 'Estrutura completa para eventos e encontros.',
-      whatsapp: "https://wa.me/5599999999999?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20retiros%20de%20jovens."
+      
     },
     { 
       icon: <Heart className="w-8 h-8 text-primary" />, 
       title: 'RETIRO DE CASAIS', 
       description: 'Ambiente romântico e aconchegante para casais.',
-      whatsapp: "https://wa.me/5599999999999?text=Olá!%20Quero%20informações%20sobre%20retiros%20de%20casais."
+     
     }
   ];
 
@@ -108,7 +105,7 @@ const Services = () => {
 
                   {/* Botão Saiba Mais */}
                   <a 
-                    href={service.whatsapp} 
+                    href="/" 
                     target="_blank" 
                     rel="noopener noreferrer" 
                     className="mt-4 inline-block px-4 py-2 text-white bg-green-500 rounded-lg hover:bg-green-600 transition-all"
